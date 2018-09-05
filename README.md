@@ -5,4 +5,4 @@ This app will have as little function as posting a message, therefore it will be
 
 Demo：
 
-![效果图](C:\Codes\GitHub_Temp\MinimalFlask\MinimumFlask\src\20180905160340.png)
+![效果图](.\src\20180905160340.png)
