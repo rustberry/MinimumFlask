@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "post_id": 1,
+    "content": "test"
+  },
+  {
+    "id": 2,
+    "post_id": "1",
+    "content": "testst22"
+  }
+]
