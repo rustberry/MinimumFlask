@@ -2,9 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Posts</title>
+    <link rel="stylesheet" href="/static/css/pure-min.css">
+    <style type="text/css">
+    .post-table {
+        margin: 0 auto;
+    }
+    .center {
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
-$END$
+        <div class="center">
+        <h1>Posts</h1>
+        <!-- action /todo/add-->
+        <form action={{ url_for("post.add") }} method="post">
+            <input type="text" placeholder="Add Todo" name="title">
+            <input class="pure-button pure-button-primary" type="submit" value="Add">
+        </form>
+    </div>
+
+    <table class="post-table pure-table pure-table-horizontal pure-table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Time</th>
+                <th>Comments</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for p in posts %}
+            <tr>
+                <td>{{ p.id }}</td>
+                <td>{{ p.title }}</td>
+                <td><a href={{ url_for('.comment', post_id=p.id) }}>Comment</a></td>
+                <td><a href={{ url_for('.delete', post_id=p.id) }}>Delete</a></td>
+                <td><a href={{ url_for('.edit', post_id=p.id) }}>Edit</a></td>
+                <!--<td>{{ p.ct }}</td>-->
+                <!-- url_for 可以传递参数，先匹配动态路由，如果动态路由匹配失败则变成 query 参数 -->
+                {# <!--<td><a href={{ url_for('.add', todo_id=t.id) }}>delete</a></td>--> #}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>

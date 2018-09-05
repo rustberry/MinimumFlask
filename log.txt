@@ -1,0 +1,362 @@
+15:31:30 kwargs,  {'id': 1} <class 'dict'>
+15:31:34 kwargs,  {'id': 2} <class 'dict'>
+15:33:49 kwargs,  {'id': 1} <class 'dict'>
+15:43:24 kwargs,  {'id': 1} <class 'dict'>
+15:43:59 kwargs,  {'id': 1} <class 'dict'>
+15:43:59 kwargs,  {'post_id': 1} <class 'dict'>
+15:44:18 kwargs,  {'id': 1} <class 'dict'>
+15:44:18 kwargs,  {'post_id': 1} <class 'dict'>
+15:44:59 kwargs,  {'id': 1} <class 'dict'>
+15:44:59 kwargs,  {'post_id': 1} <class 'dict'>
+15:45:45 kwargs,  {'id': 1} <class 'dict'>
+15:45:45 kwargs,  {'post_id': 1} <class 'dict'>
+15:49:57 kwargs,  {'id': 1} <class 'dict'>
+15:50:32 kwargs,  {'id': 1} <class 'dict'>
+15:50:32 kwargs,  {'post_id': 1} <class 'dict'>
+15:52:21 kwargs,  {'id': 1} <class 'dict'>
+15:52:21 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:52:21 kwargs,  {'post_id': 1} <class 'dict'>
+15:52:21 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+]
+15:52:58 kwargs,  {'id': 1} <class 'dict'>
+15:52:58 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:52:58 kwargs,  {'post_id': 1} <class 'dict'>
+15:52:58 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  }
+]
+15:54:09 kwargs,  {'id': 1} <class 'dict'>
+15:54:09 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:54:09 kwargs,  {'post_id': 1} <class 'dict'>
+15:54:09 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  }
+]
+15:54:40 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  }
+]
+15:56:11 kwargs,  {'post_id': 1} <class 'dict'>
+15:56:11 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  }
+]
+15:56:53 kwargs,  {'post_id': 1} <class 'dict'>
+15:56:53 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test222",
+    "id": 2,
+    "post_id": 1
+  }
+]
+15:56:57 kwargs,  {'id': 1} <class 'dict'>
+15:56:57 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:56:57 kwargs,  {'post_id': 1} <class 'dict'>
+15:56:57 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test222",
+    "id": 2,
+    "post_id": 1
+  }
+]
+15:58:26 kwargs,  {'id': 1} <class 'dict'>
+15:58:26 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:58:26 kwargs,  {'post_id': 1} <class 'dict'>
+15:58:26 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test222",
+    "id": 2,
+    "post_id": 1
+  }
+]
+15:58:37 kwargs,  {'id': 1} <class 'dict'>
+15:58:37 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:58:37 kwargs,  {'post_id': 1} <class 'dict'>
+15:58:37 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test222",
+    "id": 2,
+    "post_id": 1
+  }
+]
+15:58:37 load [
+  {
+    "content": "test",
+    "id": 1,
+    "post_id": 1
+  },
+  {
+    "content": "test222",
+    "id": 2,
+    "post_id": 1
+  }
+]
+15:58:37 debug -1
+15:58:49 kwargs,  {'id': 1} <class 'dict'>
+15:58:49 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:58:50 kwargs,  {'post_id': 1} <class 'dict'>
+15:58:50 load [
+  {
+    "id": 1,
+    "post_id": 1,
+    "content": "test"
+  },
+  {
+    "id": -1,
+    "post_id": "1",
+    "content": "fj;aslfjdsa;lfj"
+  }
+]
+15:58:50 load [
+  {
+    "id": 1,
+    "post_id": 1,
+    "content": "test"
+  },
+  {
+    "id": -1,
+    "post_id": "1",
+    "content": "fj;aslfjdsa;lfj"
+  }
+]
+15:58:50 debug 1
+15:58:57 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:58:58 kwargs,  {'id': 1} <class 'dict'>
+15:58:59 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:58:59 kwargs,  {'post_id': 1} <class 'dict'>
+15:58:59 load [
+  {
+    "id": 1,
+    "post_id": 1,
+    "content": "test"
+  },
+  {
+    "id": -1,
+    "post_id": "1",
+    "content": "fj;aslfjdsa;lfj"
+  }
+]
+15:59:03 kwargs,  {'id': 1} <class 'dict'>
+15:59:03 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
+15:59:03 kwargs,  {'post_id': 1} <class 'dict'>
+15:59:03 load [
+  {
+    "id": 1,
+    "post_id": 1,
+    "content": "test"
+  },
+  {
+    "id": -1,
+    "post_id": "1",
+    "content": "fj;aslfjdsa;lfj"
+  }
+]
+15:59:03 load [
+  {
+    "id": 1,
+    "post_id": 1,
+    "content": "test"
+  },
+  {
+    "id": -1,
+    "post_id": "1",
+    "content": "fj;aslfjdsa;lfj"
+  }
+]
+15:59:03 debug 1
+16:02:42 load [
+  {
+    "id": 1,
+    "title": "test"
+  },
+  {
+    "id": 2,
+    "title": "heyya"
+  },
+  {
+    "id": 3,
+    "title": "1233"
+  }
+]
